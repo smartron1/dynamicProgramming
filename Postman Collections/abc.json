@@ -1,0 +1,34 @@
+{
+  "info": {
+    "_postman_id": "fc93a8ff-83f6-4f1f-9358-d3bd04aeb004",
+    "name": "Test Datadog",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "New Request",
+      "event": [
+        {
+          "listen": "prerequest",
+          "script": {
+            "id": "adc54f3b-532c-4394-8737-d12f860771cc",
+            "exec": [
+              ""
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "_postman_id": "59c35e49-2f61-434d-af08-76e0ee9bb4a0",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "https://postman.com/knockknock"
+      },
+      "response": []
+    }
+  ]
+}
